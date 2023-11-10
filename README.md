@@ -40,5 +40,9 @@
 .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic LOJA_NOVO_PEDIDO --from-beginning
 ```
 
+### Verificar descrição do topic
 
+```
+.\bin\windows\kafka-topics.bat --bootstrap-server localhost:9092 --describe 
+```
 
