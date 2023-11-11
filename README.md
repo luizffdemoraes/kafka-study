@@ -82,3 +82,21 @@ Basicamente, as informações de uma partição podem ser lidas por somente um c
 .\bin\windows\kafka-topics.bat --bootstrap-server localhost:9092 --describe 
 ```
 
+### Reparticionando novos tópicos
+Alterar o arquivo server.properties dentro da pasta kafka_2.13-3.6.0\config.:
+
+```
+num.partitions=3
+```
+
+### Reparticionando um tópico existente
+```
+.\bin\windows\kafka-topics.bat --bootstrap-server localhost:9092 --alter --topic ECOMMERCE_NEW_ORDER --partitions 3
+```
+
+<b>Observação.:</b> A partir do Apache Kafka versão 2.8.0 e posterior, o suporte direto ao ZooKeeper para a gestão de tópicos foi removido. Em vez disso, você deve usar o Kafka Admin API diretamente ou a ferramenta kafka-topics.sh com as opções apropriadas.
+
+### Verificar grupos de consumo
+```
+.\bin\windows\kafka-consumer-groups.bat --all-groups --bootstrap-server localhost:9092 --describe
+```
