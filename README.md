@@ -100,3 +100,23 @@ num.partitions=3
 ```
 .\bin\windows\kafka-consumer-groups.bat --all-groups --bootstrap-server localhost:9092 --describe
 ```
+
+<h1 align="center">
+    Dúvidas
+</h1>
+
+Em um sistema bancário, um usuário inicia o processo de uma transação bancária, qual abordagem é baseada em produtores e consumidores de mensagens?
+
+A requisição é feita por um site ou app cujo servidor envia uma mensagem de pedido de transação bancária.
+
+```
+Essa abordagem mistura o processo síncrono e a mensagem.
+```
+
+Qual a importância das chaves na paralelização de tarefas?
+
+Ela é peça fundamental para paralelizar o processamento de mensagens em um tópico dentro do mesmo consumer group.
+
+```
+A chave é usada para distribuir a mensagem entre as partições existentes e consequentemente entre as instâncias de um serviço dentro de um consumer group.
+```
