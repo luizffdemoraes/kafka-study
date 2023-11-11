@@ -1,0 +1,15 @@
+
+h
+java:S2095"KUse try-with-resources or close this "KafkaConsumer" in a "finally" clause.(Ü¼¥Â8ÊŞª¼»1
+L	java:S106"+Replace this use of System.out by a logger.(°“ú÷üÿÿÿÿ8Óó£¼»1
+\
+java:S6213":Rename this variable to not match a restricted identifier.(´Ÿ•şÿÿÿÿ8ÒŞª¼»1
+G	java:S106"+Replace this use of System.out by a logger.(íê­…8ÒŞª¼»1
+L	java:S106"+Replace this use of System.out by a logger.(˜±˜Éşÿÿÿÿ8ÒŞª¼»1
+L	java:S106"+Replace this use of System.out by a logger.(Ÿ‰‡çüÿÿÿÿ8ÓŞª¼»1
+L	java:S106"+Replace this use of System.out by a logger.(Ğ‡ó´şÿÿÿÿ8ÓŞª¼»1
+F	java:S106"+Replace this use of System.out by a logger.(Óİ~8ÓŞª¼»1
+L	java:S106"+Replace this use of System.out by a logger.(ÒöÁİûÿÿÿÿ8ÔŞª¼»1
+L	java:S106"+Replace this use of System.out by a logger.(×ã§ÿÿÿÿÿ8ÔŞª¼»1
+p
+java:S1128"SRemove this unused import 'org.apache.kafka.common.serialization.StringSerializer'.(Ş ¾ş8Ùó£¼»1
