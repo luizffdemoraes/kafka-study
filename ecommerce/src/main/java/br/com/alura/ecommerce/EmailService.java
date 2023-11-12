@@ -6,9 +6,10 @@ public class EmailService {
 
     public static void main(String[] args) throws InterruptedException {
         var emailService = new EmailService();
-        var service = new KafkaService(EmailService.class.getName(), "ECOMMERCE_SEND_EMAIL",
-                emailService::parse);
-        service.run();
+        try (var service = new KafkaService(EmailService.class.getName(), "ECOMMERCE_SEND_EMAIL",
+                emailService::parse)) {
+            service.run();
+        }
     }
 
     private void parse(ConsumerRecord<String, String> record) throws InterruptedException {

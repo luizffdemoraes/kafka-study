@@ -1,6 +1,7 @@
 
-m
-java:S2095"KUse try-with-resources or close this "KafkaProducer" in a "finally" clause.(¹ÈÓ¦ûÿÿÿÿ8ıôº¼1
-\
-java:S6213":Rename this variable to not match a restricted identifier.(Şàÿ¤ùÿÿÿÿ8Œõº¼1
-L	java:S106"+Replace this use of System.out by a logger.(±ôİÅøÿÿÿÿ8õº¼1
+
+java:S1130	"€Remove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(­Ëê8Ÿ²ï‡¼1
+”
+java:S1130	"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(­Ëê8 ²ï‡¼1
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8ãıˆ¼1

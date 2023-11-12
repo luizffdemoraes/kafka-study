@@ -1,0 +1,14 @@
+
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(„®ý¡ûÿÿÿÿ8ž“ù†¼1
+Y
+java:S1854"<Remove this useless assignment to local variable "callback".(¹øÀ8‡±‡¼1
+W
+java:S1854":Remove this useless assignment to local variable "record".(»å÷ÿ8‡±‡¼1
+W
+java:S6213":Rename this variable to not match a restricted identifier.(»å÷ÿ8Íš¼‡¼1
+H
+java:S1481"+Remove this unused "record" local variable.(»å÷ÿ8Íš¼‡¼1
+L	java:S106#"+Replace this use of System.out by a logger.(±ôÝÅøÿÿÿÿ8‰±‡¼1
+J
+java:S1481"-Remove this unused "callback" local variable.(¹øÀ8Š±‡¼1

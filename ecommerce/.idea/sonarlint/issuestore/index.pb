@@ -13,3 +13,5 @@ f
 6src/main/java/br/com/alura/ecommerce/KafkaService.java,1\c\1c945c7261b6798ee68464b25ddcd27e1e4f673b
 i
 9src/main/java/br/com/alura/ecommerce/ConsumerFuncion.java,9\c\9ced88600d50b7dd34f6667fb24e87673cdf35fe
+i
+9src/main/java/br/com/alura/ecommerce/KafkaDispatcher.java,0\c\0c5f2ef299378893bb0a207dfcc58a4501f03750
