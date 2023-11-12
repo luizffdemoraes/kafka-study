@@ -1,5 +1,0 @@
-
-û
-java:S1130"ÄRemove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(≠ÀêÍ8ü≤Ôáº1
-î
-java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(≠ÀêÍ8†≤Ôáº1

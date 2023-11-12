@@ -141,3 +141,13 @@ Adotar boas práticas como evitar código duplicado.
 ```
 Definir padrões, boas práticas e evitar más práticas, permitindo novos/as devs começar a desenvolver rapidamente código pronto para produção.
 ```
+
+<h1 align="center">
+    Referências
+</h1>
+
+https://kafka.apache.org/documentation/
+
+https://www.alura.com.br/formacao-kafka
+
+https://fullcycle.com.br/apache-kafka-trabalhando-com-mensageria-e-real-time/
