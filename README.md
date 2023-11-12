@@ -120,3 +120,11 @@ Ela é peça fundamental para paralelizar o processamento de mensagens em um tó
 ```
 A chave é usada para distribuir a mensagem entre as partições existentes e consequentemente entre as instâncias de um serviço dentro de um consumer group.
 ```
+
+Qual a vantagem de criar nossa própria camada?
+
+Adotar boas práticas como evitar código duplicado.
+
+```
+Definir padrões, boas práticas e evitar más práticas, permitindo novos/as devs começar a desenvolver rapidamente código pronto para produção.
+```
