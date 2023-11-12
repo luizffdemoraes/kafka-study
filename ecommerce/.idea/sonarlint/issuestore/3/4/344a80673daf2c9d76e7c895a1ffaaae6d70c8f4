@@ -1,13 +1,10 @@
 
-h
-java:S2095"KUse try-with-resources or close this "KafkaConsumer" in a "finally" clause.(Ü¼¥Â8 äœ‚¼1
-L	java:S106"+Replace this use of System.out by a logger.(°“ú÷üÿÿÿÿ8­äœ‚¼1
 \
-java:S6213":Rename this variable to not match a restricted identifier.(´Ÿ•şÿÿÿÿ8¯äœ‚¼1
-G	java:S106"+Replace this use of System.out by a logger.(íê­…8°äœ‚¼1
-L	java:S106"+Replace this use of System.out by a logger.(˜±˜Éşÿÿÿÿ8±äœ‚¼1
-L	java:S106"+Replace this use of System.out by a logger.(Ÿ‰‡çüÿÿÿÿ8±äœ‚¼1
-L	java:S106"+Replace this use of System.out by a logger.(Ğ‡ó´şÿÿÿÿ8µäœ‚¼1
-F	java:S106"+Replace this use of System.out by a logger.(Óİ~8¶äœ‚¼1
-L	java:S106"+Replace this use of System.out by a logger.(ÒöÁİûÿÿÿÿ8·äœ‚¼1
-L	java:S106"+Replace this use of System.out by a logger.(×ã§ÿÿÿÿÿ8¸äœ‚¼1
+java:S6213":Rename this variable to not match a restricted identifier.(ËŠš„ÿÿÿÿÿ8ê»…¼1
+G	java:S106"+Replace this use of System.out by a logger.(íê­…8ë»…¼1
+L	java:S106"+Replace this use of System.out by a logger.(˜±˜Éşÿÿÿÿ8ë»…¼1
+L	java:S106"+Replace this use of System.out by a logger.(Ÿ‰‡çüÿÿÿÿ8ë»…¼1
+L	java:S106"+Replace this use of System.out by a logger.(Ğ‡ó´şÿÿÿÿ8ë»…¼1
+F	java:S106"+Replace this use of System.out by a logger.(Óİ~8ì»…¼1
+L	java:S106"+Replace this use of System.out by a logger.(ÒöÁİûÿÿÿÿ8ì»…¼1
+L	java:S106"+Replace this use of System.out by a logger.(×ã§ÿÿÿÿÿ8ì»…¼1
