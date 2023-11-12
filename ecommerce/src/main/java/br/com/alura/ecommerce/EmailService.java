@@ -12,14 +12,19 @@ public class EmailService {
         }
     }
 
-    private void parse(ConsumerRecord<String, String> record) throws InterruptedException {
+    private void parse(ConsumerRecord<String, String> record) {
         System.out.println("----------------------------------------");
         System.out.println("Send email");
         System.out.println(record.key());
         System.out.println(record.value());
         System.out.println(record.partition());
         System.out.println(record.offset());
-        Thread.sleep(5000);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            // ignoring
+            e.printStackTrace();
+        }
         System.out.println("Email sent");
     }
 }

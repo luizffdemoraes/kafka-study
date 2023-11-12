@@ -2,9 +2,6 @@ package br.com.alura.ecommerce;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 
-import java.io.Closeable;
-import java.io.IOException;
-
 public class FraudDetectorService {
 
     public static void main(String[] args) throws InterruptedException {
@@ -16,14 +13,19 @@ public class FraudDetectorService {
         }
     }
 
-    private void parse(ConsumerRecord<String, String> record) throws InterruptedException {
+    private void parse(ConsumerRecord<String, String> record) {
         System.out.println("----------------------------------------");
         System.out.println("Processing new order, checking for fraud");
         System.out.println(record.key());
         System.out.println(record.value());
         System.out.println(record.partition());
         System.out.println(record.offset());
-        Thread.sleep(5000);
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            // ignoring
+            e.printStackTrace();
+        }
         System.out.println("Order processed");
     }
 }

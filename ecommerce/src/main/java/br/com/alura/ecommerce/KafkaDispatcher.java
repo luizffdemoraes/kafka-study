@@ -8,13 +8,14 @@ import org.apache.kafka.common.serialization.StringSerializer;
 
 import java.io.Closeable;
 import java.util.Properties;
+import java.util.concurrent.ExecutionException;
 
 public class KafkaDispatcher implements Closeable {
 
     private final KafkaProducer<String, String> producer;
 
     public KafkaDispatcher() {
-        this.producer = new KafkaProducer<String, String>(properties());
+        this.producer = new KafkaProducer<>(properties());
     }
 
     private static Properties properties() {
@@ -25,15 +26,16 @@ public class KafkaDispatcher implements Closeable {
         return properties;
     }
 
-    public void send(String topic, String key, String value) {
-        var record = new ProducerRecord<String, String>(topic, key, value);
+    void send(String topic, String key, String value) throws ExecutionException, InterruptedException {
+        var record = new ProducerRecord<>(topic, key, value);
         Callback callback = (data, ex) -> {
             if (ex != null) {
                 ex.printStackTrace();
                 return;
             }
-            System.out.println("sucesso enviado " + data.topic() + ":::partition " + data.partition() + "/offset " + data.offset() + "/timestamp " + data.timestamp());
+            System.out.println("sucesso enviando " + data.topic() + ":::partition " + data.partition() + "/ offset " + data.offset() + "/ timestamp " + data.timestamp());
         };
+        producer.send(record, callback).get();
     }
 
     @Override
