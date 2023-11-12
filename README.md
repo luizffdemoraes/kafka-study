@@ -88,6 +88,19 @@ Alterar o arquivo server.properties dentro da pasta kafka_2.13-3.6.0\config.:
 ```
 num.partitions=3
 ```
+### Alterar pasta de armazenamento de log Kafka
+Alterar o arquivo server.properties dentro da pasta kafka_2.13-3.6.0\config.:
+
+```
+log.dirs=CAMINHO_DESEJADO
+```
+
+### Alterar pasta de armazenamento de log Zookeeper
+Alterar o arquivo zookeeper.properties dentro da pasta kafka_2.13-3.6.0\config.:
+
+```
+dataDir=CAMINHO_DESEJADO
+```
 
 ### Reparticionando um tópico existente
 ```
