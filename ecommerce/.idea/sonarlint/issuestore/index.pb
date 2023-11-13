@@ -15,3 +15,7 @@ i
 9src/main/java/br/com/alura/ecommerce/ConsumerFuncion.java,9\c\9ced88600d50b7dd34f6667fb24e87673cdf35fe
 i
 9src/main/java/br/com/alura/ecommerce/KafkaDispatcher.java,0\c\0c5f2ef299378893bb0a207dfcc58a4501f03750
+_
+/src/main/java/br/com/alura/ecommerce/Order.java,6\4\6497bf53cf84137a5903b6afb8ad386b3c8d7dbb
+h
+8src/main/java/br/com/alura/ecommerce/GsonSerializer.java,3\7\377a16e44d560d2d33bf8c771c5415e45916c441
