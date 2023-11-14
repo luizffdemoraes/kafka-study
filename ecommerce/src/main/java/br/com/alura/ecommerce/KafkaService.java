@@ -13,19 +13,19 @@ import java.util.regex.Pattern;
 
 public class KafkaService<T> implements Closeable {
     private final KafkaConsumer<String, T> consumer;
-    private final ConsumerFuncion parse;
+    private final ConsumerFunction parse;
 
-    KafkaService(String groupId, String topic, ConsumerFuncion parse, Class<T> type) {
+    KafkaService(String groupId, String topic, ConsumerFunction parse, Class<T> type) {
         this(parse, groupId, type);
         consumer.subscribe(Collections.singletonList(topic));
     }
 
-    KafkaService(String groupId, Pattern topic, ConsumerFuncion parse, Class<T> type) {
+    KafkaService(String groupId, Pattern topic, ConsumerFunction parse, Class<T> type) {
         this(parse, groupId, type);
         consumer.subscribe(topic);
     }
 
-    private KafkaService(ConsumerFuncion parse, String groupId, Class<T> type) {
+    private KafkaService(ConsumerFunction parse, String groupId, Class<T> type) {
         this.parse = parse;
         this.consumer = new KafkaConsumer<>(properties(type, groupId));
     }

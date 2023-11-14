@@ -1,14 +1,16 @@
 
 Q
-java:S3740	"/Provide the parametrized type for this generic.(ï“Â‰ıÿÿÿÿ8ñ‡¤µ¼1
+java:S3740	"/Provide the parametrized type for this generic.(ï“Â‰ıÿÿÿÿ8½ÅæŞ¼1
+“
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú78ÎÅæŞ¼1
 \
-java:S6213":Rename this variable to not match a restricted identifier.(ŸÔ†¸üÿÿÿÿ8ËÑ”ˆ¼1
-G	java:S106"+Replace this use of System.out by a logger.(íê­…8ÌÑ”ˆ¼1
-G	java:S106"+Replace this use of System.out by a logger.(âÀ«¤8ÌÑ”ˆ¼1
-L	java:S106"+Replace this use of System.out by a logger.(Ÿ‰‡çüÿÿÿÿ8ÍÑ”ˆ¼1
-L	java:S106"+Replace this use of System.out by a logger.(Ğ‡ó´şÿÿÿÿ8ÍÑ”ˆ¼1
-F	java:S106"+Replace this use of System.out by a logger.(Óİ~8ÍÑ”ˆ¼1
-L	java:S106"+Replace this use of System.out by a logger.(ÒöÁİûÿÿÿÿ8ÎÑ”ˆ¼1
+java:S6213":Rename this variable to not match a restricted identifier.(ŸÔ†¸üÿÿÿÿ8ÑÅæŞ¼1
+G	java:S106"+Replace this use of System.out by a logger.(íê­…8ÑÅæŞ¼1
+G	java:S106"+Replace this use of System.out by a logger.(âÀ«¤8ÒÅæŞ¼1
+L	java:S106"+Replace this use of System.out by a logger.(Ÿ‰‡çüÿÿÿÿ8ÓÅæŞ¼1
+L	java:S106"+Replace this use of System.out by a logger.(Ğ‡ó´şÿÿÿÿ8ÓÅæŞ¼1
+F	java:S106"+Replace this use of System.out by a logger.(Óİ~8ÓÅæŞ¼1
+L	java:S106"+Replace this use of System.out by a logger.(ÒöÁİûÿÿÿÿ8ÔÅæŞ¼1
 {
-java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8íÄë‰¼1
-L	java:S106"+Replace this use of System.out by a logger.(»çşüÿÿÿÿ8ÏÑ”ˆ¼1
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ÔÅæŞ¼1
+L	java:S106"+Replace this use of System.out by a logger.(»çşüÿÿÿÿ8ÖÅæŞ¼1

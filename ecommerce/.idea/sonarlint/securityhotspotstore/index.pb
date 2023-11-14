@@ -23,3 +23,5 @@ j
 :src/main/java/br/com/alura/ecommerce/GsonDeserializer.java,d\1\d1bcdfae90ea150cd4128751bf86a21f27e3c2c3
 _
 /src/main/java/br/com/alura/ecommerce/Email.java,c\b\cb200ea5e4038282370c8f7e2d85a78e09390426
+j
+:src/main/java/br/com/alura/ecommerce/ConsumerFunction.java,0\3\03a2a2b8fc81137ff574e49ad42d945e9d27aedb
