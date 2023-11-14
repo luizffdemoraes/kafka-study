@@ -31,7 +31,7 @@ public class KafkaService<T> implements Closeable {
         this.consumer = new KafkaConsumer<>(getProperties(type, groupId, properties));
     }
 
-    void run() throws InterruptedException {
+    void run() {
         while (true) {
             var records = consumer.poll(Duration.ofMillis(100));
             if (!records.isEmpty()) {
