@@ -142,6 +142,14 @@ Adotar boas práticas como evitar código duplicado.
 Definir padrões, boas práticas e evitar más práticas, permitindo novos/as devs começar a desenvolver rapidamente código pronto para produção.
 ```
 
+Qual uma vantagem de extrair bibliotecas comuns?
+
+Múltiplos projetos se beneficiam da mesma base de código.
+
+```
+Isso permite que devs foquem nos requerimentos únicos de seu projeto.
+```
+
 <h1 align="center">
     Referências
 </h1>
