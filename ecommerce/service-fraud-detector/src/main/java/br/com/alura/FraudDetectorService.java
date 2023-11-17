@@ -1,6 +1,6 @@
 package br.com.alura;
 
-import br.com.alura.ecommerce.Order;
+
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 
 import java.util.Map;
@@ -14,7 +14,7 @@ public class FraudDetectorService {
                 fraudService::parse,
                 Order.class,
                 Map.of())) {
-             service.run();
+            service.run();
         }
     }
 

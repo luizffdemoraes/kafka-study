@@ -45,3 +45,9 @@ l
 <common-kafka/src/main/java/br/com/alura/KafkaDispatcher.java,1\a\1a019a6cbc662f82cdcf556cceabe50b914b922a
 i
 9common-kafka/src/main/java/br/com/alura/KafkaService.java,f\0\f06dacc53c732ed2c5433f69e6028bedf0f053a0
+m
+=common-kafka/src/main/java/br/com/alura/GsonDeserializer.java,3\3\33b9b47acb0d824f3252fa4042f3082fdd119fb4
+l
+<service-fraud-detector/src/main/java/br/com/alura/Order.java,5\5\5543732b7a6be9f7d3ef7ab7ae5d56e5819b3e9f
+g
+7service-new-order/src/main/java/br/com/alura/Order.java,b\f\bfb30715c23f672ff4eec6d77e87953e3e6c7bd5
